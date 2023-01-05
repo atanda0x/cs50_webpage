@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>
+            blink
+        </title>
+    </head>
+    <body>
+        
+        <script>
+            function greet() {
+                let name = document.querySelector('#name').value;
+                alert("hello, " + name);
+            }
+            document.querySelector('form').addEventListener('submit', greet);
+        </script>
+    </body>
+</html>
